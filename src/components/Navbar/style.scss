@@ -1,0 +1,31 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    // display: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin: 0px 24px 16px 16px;
+  }
+  .login-button {
+    display: none;
+  }
+
+  .menu__container {
+    display: none;
+  }
+}
+
+.navbar {
+  .dropdown__menu {
+    // display: none;
+  }
+}
