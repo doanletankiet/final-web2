@@ -76,11 +76,15 @@ const Navbar = () => {
             </Menu>
           </Col>
           <Col span={4} className="login-button">
-            <div>
-              <Button type="primary" icon={<LoginOutlined />}>
-                <Link href="/auth"> Login</Link>
-              </Button>
-            </div>
+            <Link href="/auth">
+              {" "}
+              <div>
+                <Button type="primary" icon={<LoginOutlined />}>
+                  {" "}
+                  Login
+                </Button>
+              </div>
+            </Link>
           </Col>
 
           {/* <div className="login-button">
